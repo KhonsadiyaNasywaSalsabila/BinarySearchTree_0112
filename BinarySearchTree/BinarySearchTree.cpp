@@ -54,7 +54,7 @@ public:
 
 		else if (element > parent->info)
 		{
-
+			parent->rightchild = newNode;
 		}
 	}
 };
