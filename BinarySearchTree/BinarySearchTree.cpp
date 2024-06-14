@@ -52,6 +52,10 @@ public:
 			parent->leftchild = newNode;
 		}
 
+		else if (element > parent->info)
+		{
+
+		}
 	}
 };
 int main()
