@@ -44,6 +44,7 @@ public:
 		if (parent == NULL)
 		{
 			ROOT = newNode;
+			return;
 		}
 	}
 };
