@@ -20,6 +20,11 @@ public:
 	}
 };
 
+class BinaryTree
+{
+public:
+	
+};
 int main()
 {
    
