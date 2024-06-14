@@ -37,6 +37,8 @@ public:
 		newNode->leftchild = NULL;
 		newNode->rightchild = NULL;
 
+		Node* parent + NULL;
+
 	}
 };
 int main()
