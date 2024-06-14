@@ -24,6 +24,7 @@ class BinaryTree
 {
 public:
 	Node* ROOT;
+	
 
 	BinaryTree()
 	{
@@ -40,6 +41,10 @@ public:
 		Node* parent = NULL;
 		Node* currentNode = NULL;
 		search(element, parent, currentNode);
+		if (parent == NULL)
+		{
+
+		}
 	}
 };
 int main()
